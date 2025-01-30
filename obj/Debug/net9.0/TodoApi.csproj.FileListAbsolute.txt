@@ -34,3 +34,5 @@ C:\Users\NICOL\OneDrive\Desktop\TodoApi\obj\Debug\net9.0\ref\TodoApi.dll
 C:\Users\NICOL\OneDrive\Desktop\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\NICOL\OneDrive\Desktop\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\NICOL\OneDrive\Desktop\TodoApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NICOL\OneDrive\Desktop\TodoApi\obj\Debug\net9.0\TodoApi.sourcelink.json
+C:\Users\NICOL\OneDrive\Desktop\TodoApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<ITodoService, TodoService>(); // Serviço de tarefas
 builder.Services.AddControllers(); // Adiciona suporte a Controllers
 builder.Services.AddEndpointsApiExplorer(); // Habilita descoberta de endpoints para APIs minimalistas
+
+// Configuração do Swagger para documentação da API
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
