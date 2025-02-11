@@ -1,4 +1,3 @@
-```markdown
 # TodoApi - API para Gerenciamento de Tarefas
 
 ## Descrição
@@ -84,6 +83,42 @@ Este projeto é uma API simples para gerenciar tarefas (To-Do list), desenvolvid
 - **Descrição:** Deleta uma tarefa pelo `id`.
 - **Resposta:** Status da operação.
 
+## Testes Unitários
+
+Este projeto possui testes unitários utilizando **xUnit** para garantir a confiabilidade das funcionalidades.
+
+### Como Rodar os Testes
+
+1. Navegue até a pasta raiz do projeto:
+   ```sh
+   cd TodoApi
+   ```
+2. Execute os testes com o comando:
+   ```sh
+   dotnet test
+   ```
+
+### Exemplo de Teste
+
+Os testes seguem o padrão **Arrange, Act, Assert**.
+
+```csharp
+[Fact]
+public void AddTask_DeveAdicionarTarefaNaLista()
+{
+    // Arrange
+    var service = new TodoService();
+    var task = new Todo { Name = "Nova Tarefa", Done = false };
+
+    // Act
+    service.AddTask(task);
+    var result = service.GetAll();
+
+    // Assert
+    Assert.Contains(task, result);
+}
+```
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar **pull requests** para melhorias no projeto.
@@ -97,4 +132,4 @@ Distribuído sob a licença MIT. Veja a [LICENSE](LICENSE) para mais informaçõ
 **Nicolas da Silva Santos**  
 GitHub: [@NVanitas](https://github.com/NVanitas)  
 E-mail: [nicolasdasilvasantos04@gmail.com](mailto:nicolasdasilvasantos04@gmail.com)
-```
+
