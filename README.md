@@ -22,7 +22,7 @@ Este projeto é uma API simples para gerenciar tarefas (To-Do list), desenvolvid
 
 ### Requisitos
 
-- .NET SDK 6.0 ou superior
+- .NET SDK 9.0 ou superior
 - Visual Studio ou qualquer editor de sua escolha (VS Code recomendado)
 - Git (para versionamento e upload para o GitHub)
 
